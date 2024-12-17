@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e2a9d5;
+    background-image:url(kittypic.avif);
+    background-size: cover;
+}
+
+header {
+    background-color: #e363c1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+    margin: 10px auto;
+    height: 180px;
+    padding-top: 0%;
+    background-image: url(melodygif.gif);
+    background-size: auto;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    background-color: #e2a9d5;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-box img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.text-box {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.text-box h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.text-box p {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+#image1{
+    height:150px;      
+}
+.music-player {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+
+  .button:hover {
+    transform: translateY(-5px);
+    background: #f584bb;
+    color: #fff;
+  }
